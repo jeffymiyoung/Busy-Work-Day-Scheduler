@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -67,7 +67,15 @@ textarea{
   color: white;
 }
 
+.fa-save {
+  padding-right: 8px;
+  padding-bottom: 5px;
+  align-content: center;
+  justify-content: center;
+}
+
 .saveBtn i:hover {
+  color: black;
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
